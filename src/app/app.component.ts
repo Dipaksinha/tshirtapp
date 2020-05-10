@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   imageWidth=50;
   imageMargin=2;
   searchText='';
-  searchPrice=0;
+  searchPrice;
   tdColor='red';
   products : IProduct[] =[];
   showImage = false;
