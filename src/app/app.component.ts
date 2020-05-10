@@ -36,18 +36,19 @@ export class AppComponent implements OnInit {
         "productName" : "Colors",
         "price" : 40,
         "quantity" : 45,
-        "imageUrl":"assets/images/Tshirt1.jpg",
-        "imageBackUrl" :"assets/images/tshirtb1.jpg",
-        "imageOUrl" : "assets/images/Tshirt1.jpg"
+        //"imageUrl":"assets/images/Tshirt1.jpg",
+        "imageUrl" : "https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/Tshirt1.jpg",
+        "imageBackUrl" :"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirtb1.jpg",
+        "imageOUrl" : "https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/Tshirt1.jpg"
       },
       {
         "productID" : 2,
         "productName" : "Nike",
         "price" : 105,
         "quantity" : 80,
-        "imageUrl":"assets/images/Tshirt2.jpg",
-        "imageBackUrl" :"assets/images/tshirtb2.jpg",
-        "imageOUrl":"assets/images/Tshirt2.jpg"
+        "imageUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/Tshirt2.jpg",
+        "imageBackUrl" :"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirtb2.jpg",
+        "imageOUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/Tshirt2.jpg"
         
       },
       {
@@ -55,9 +56,9 @@ export class AppComponent implements OnInit {
         "productName" : "TQS",
         "price" : 60,
         "quantity" : 105,
-        "imageUrl":"assets/images/Tshirt3.jpg",
-        "imageBackUrl" :"assets/images/tshirtb3.jpg",
-        "imageOUrl":"assets/images/Tshirt3.jpg"
+        "imageUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/Tshirt3.jpg",
+        "imageBackUrl" :"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirtb3.jpg",
+        "imageOUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/Tshirt3.jpg"
         
       },
       {
@@ -65,9 +66,9 @@ export class AppComponent implements OnInit {
         "productName" : "Kutton",
         "price" : 100,
         "quantity" : 200,
-        "imageUrl":"assets/images/tshirt4.jpg",
-        "imageBackUrl" :"assets/images/tshirtb4.jpg",
-        "imageOUrl":"assets/images/tshirt4.jpg"
+        "imageUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirt4.jpg",
+        "imageBackUrl" :"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirtb4.jpg",
+        "imageOUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirt4.jpg"
         
       },
       {
@@ -75,9 +76,9 @@ export class AppComponent implements OnInit {
         "productName" : "Westend",
         "price" : 55,
         "quantity" : 100,
-        "imageUrl":"assets/images/tshirt5.jpg",
-        "imageBackUrl" :"assets/images/tshirtb5.jpg",
-        "imageOUrl":"assets/images/tshirt5.jpg"
+        "imageUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirt5.jpg",
+        "imageBackUrl" :"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirtb5.jpg",
+        "imageOUrl":"https://raw.githubusercontent.com/Dipaksinha/tshirtapp/master/src/assets/images/tshirt5.jpg"
         
       }
 
