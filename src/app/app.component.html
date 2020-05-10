@@ -1,0 +1,45 @@
+<div class="container">
+<br/>
+<h2 class="text-center text-info">{{title}}</h2>
+<br/>
+<div class="row">
+
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8">
+    <input placeholder="Search Products" class="form-control" type="text" [(ngModel)] ="searchPrice"/>
+  </div>
+</div>
+<br/>
+<table class="table">
+<thead>
+<tr>
+  <th>
+    <button  class="btn btn-info" (click)='toggleImage()'>{{showImage ? 'Hide ' : 'Show '}}Image</button>
+  </th>
+  <th>
+    Name
+  </th>
+  <th>
+    Price
+  </th>
+  <th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+  <tr  *ngFor = "let product of products | productfilter: searchPrice">
+    <td>
+    <img  *ngIf ='showImage' [src]='product.imageUrl' [style.height.px]='imageHeight'
+    (mouseover)= "product.imageUrl = product.imageBackUrl"
+    (mouseout)= "product.imageUrl = product.imageOUrl"
+    [style.width.px] ='imageWidth' [style.margin.px]='imageMargin'>
+    </td>
+    <td>{{product.productName | uppercase}}</td>
+    <td>{{product.price | currency}}</td>
+    <td [style.color]= "(product.quantity < 100)? 'red' : 'green'"   >{{product.quantity}}</td>
+  </tr>
+
+</tbody>
+
+</table>
+</div>
